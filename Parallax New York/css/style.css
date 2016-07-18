@@ -1,0 +1,151 @@
+html {
+  min-height: 100;
+  position: relative;
+  min-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation {
+  background-color: #fff;
+  margin: 5px;
+  text-align: center;
+
+}
+
+#banner {
+  background: url('http://www.shauntmax30.com/data/out/9/998993-photography-cityscape-wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  -webkit-filter: grayscale(70%);
+}
+
+#blank {
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+    display: inline; 
+    font-family: helvetica;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 1.35em;
+    line-height: 2;
+}
+
+#blank p {
+  font-family: helvetica;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 2.5;
+  text-align: left;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#blank img {
+  width: 25%;
+  height: 70%;
+  float: right;
+  margin-top: -40%;
+  margin-right: 10%;
+  border-radius: 20%;
+  box-shadow: 1px 1px 1px 1px #c0c0c0;
+  -webkit-filter: grayscale(30%);
+}
+
+#blank h1 {
+  position: absolute;
+  text-align: center;
+  font-family: helvetica;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  margin-top: 10%;
+  width: 100%;
+}
+
+#banner2 {
+  background: url('http://www.siwallpaperhd.com/wp-content/uploads/2015/05/New-York-City-Skyline-Wallpaper-HD-3-Image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  margin-top: 15%;
+}
+
+ul a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.pages a::before,
+.pages a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.pages a::before {
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.pages a::after {
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+.pages a:hover::before,
+.pages a:hover::after,
+.pages a:focus::before,
+.pages a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+#blank2 {
+  height: 60vh;
+  background-color: #fff;
+}
+
+#blank2 img {
+  float: left;
+  margin-left: 5%;
+  margin-top: 6%;
+  width: 30%;
+  height: 80%;
+  border-radius: 1%;
+  box-shadow: 0px 0px 1px 1px #c0c0c0;
+  -webkit-filter: grayscale(30%);
+}
+
+#blank2 p{
+  text-align: left;
+  font-family: helvetica;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 45%;
+  line-height: 2.5;
+}
+

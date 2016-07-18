@@ -1,0 +1,68 @@
+section{
+  position: relative;
+  width: 100% !important;
+  min-height: 1000px;    
+  overflow: hidden;
+
+  h1{
+    color:black;  
+    font-size:65px;
+    line-height: 64px;
+    margin-bottom:14px;
+  }
+  article{
+    position:absolute;
+    top:240px;
+    left:40px;
+    width:300px;
+    z-index:4;
+    
+    font-size: 18px;
+    line-height: 22px;
+    color: gray;
+  }
+}
+
+.parallax-item{
+  position:absolute;
+  z-index:5;
+  top:40px;
+  left:400px;
+}
+
+//section:nth-of-type(1){height:1200px;}
+//section:nth-of-type(2){height:1600px;}
+
+#story-freext>div:nth-of-type(1) {
+  position:absolute;
+  top:0;
+  left:0;
+  
+  width: 100%;
+  height: 1600px;
+  
+  background: url(http://lab.victorcoulon.fr/javascript/scrolly/img/nike-bg.jpeg) 50% 0 no-repeat fixed;
+}
+
+#story-freext>div:nth-of-type(2) {
+  position:absolute;
+  top:0px;
+  left:100px;
+  
+  width: 100%;
+  height: 1600px;
+  
+  background: url(http://lab.victorcoulon.fr/javascript/scrolly/img/nike.png) 50% 0 no-repeat fixed;
+}
+
+#bottle>div:nth-of-type(1){
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%; 
+  height: 1200px;
+  
+  background: url(http://lab.victorcoulon.fr/javascript/scrolly/img/bottle.jpeg) 50% 0 no-repeat fixed;
+}
+
+

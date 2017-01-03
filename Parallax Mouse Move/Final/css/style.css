@@ -96,8 +96,8 @@ main {
 .resume-left .pic {
   width: 400px;
   height: 550px;
-  background-color: tomato;
-  background-image: url(logoz.png);
+/*  background-color: tomato;*/
+background: url(../logoz.png);
 }
 
 .resume-middle {

@@ -1,5 +1,5 @@
 html {
-  min-height: 100;
+  min-height: 100%;
   position: relative;
   min-width: 100%;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 li {
-    display: inline; 
+    display: inline;
     font-family: helvetica;
     font-weight: 300;
     text-transform: uppercase;
